@@ -1,0 +1,38 @@
+body {
+    background-color: #6e6363;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    width: 30%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.counter {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
